@@ -93,7 +93,7 @@ import AVFoundation
                 }
             } as AVAssetImageGeneratorCompletionHandler
             let generator = AVAssetImageGenerator(asset: AVAsset(url: url))
-            generator.apertureMode = AVAssetImageGeneratorApertureModeCleanAperture;
+            generator.apertureMode = AVAssetImageGeneratorApertureMode.cleanAperture;
             generator.appliesPreferredTrackTransform = true;
             generator.requestedTimeToleranceBefore = kCMTimeZero;
             generator.requestedTimeToleranceAfter = kCMTimeZero;
